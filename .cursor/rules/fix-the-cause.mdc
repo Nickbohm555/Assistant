@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+- Important: Try to fix issues at the **cause**, not the **symptom**.
+- Prefer structural, foundational improvements over patching consequences.
