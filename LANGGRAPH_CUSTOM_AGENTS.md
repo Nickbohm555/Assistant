@@ -25,7 +25,7 @@ The payload structure is flexible and can contain any data useful for configurin
 
 ```mermaid
 graph TD
-    A[Frontend: /create_chat] -->|Payload (Company, Time Range)| B(initialize_supervisor)
+    A[Frontend: /create_chat] -->|Payload: Company, Time Range| B(initialize_supervisor)
     B -->|Get User Profile| C{Load Default Profile}
     C -->|Schema: agent_configs| D[Iterate Subagents]
     D -->|Check for Custom Overrides| E{Custom Agent?}
